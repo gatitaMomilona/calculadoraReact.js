@@ -1,0 +1,49 @@
+.boton-historial {
+    width: 50%;
+    height: 60px;
+    background-color: darkgreen;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    margin: 4px;
+  }
+  
+  .boton-historial:hover {
+    background-color: greenyellow;
+  }
+  
+  .icono-historial {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .calculadora-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  /* Animación para el historial */
+  .animate-in {
+    animation: slideIn 0.3s ease-out;
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
